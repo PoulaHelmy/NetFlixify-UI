@@ -1,0 +1,790 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Netflixify</title>
+    <!--    Bootstrap  -->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="dist/css/vendor.min.css">
+    <!--    Font Awesome  -->
+    <link rel="stylesheet" href="dist/css/all.min.css">
+    <!--    Main Styles -->
+    <link rel="stylesheet" href="dist/css/main.min.css">
+    <!--    google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<section id="banner">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Netflix<span class="text-primary font-weight-bold">ify</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <form action="" class="col-12 col-md-6 p-0 mt-1 ">
+                    <div class="input-group ">
+                        <input type="search" class="form-control bg-transparent border-0"
+                               placeholder="Search for Your favorite Movie "
+                               aria-label="Search for Your favorite Movie">
+                        <div class="input-group-append">
+                            <span class="bg-transparent input-group-text text-primary border-0"><i
+                                    class="fas fa-search"></i></span>
+                        </div>
+                    </div>
+
+                </form>
+
+                <ul class="navbar-nav ml-auto">
+                    <a href="login.html" class="btn btn-primary mb-2 mb-md-0 mr-0 mr-md-2">Login</a>
+                    <a href="register.html" class="btn btn-outline-light">Register</a>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--    All Movies-->
+    <div class="movies owl-carousel owl-theme">
+
+        <!--        Moive One-->
+        <div class="movie text-white d-flex justify-content-center align-items-center">
+            <div class="movie__bg"
+                 style="background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),
+                 url('dist/images/403035-iron-man-background-wallpaper-for-computer-free.jpg') center/cover no-repeat;"></div>
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6 py-4">
+                        <div class="d-flex justify-content-between">
+                            <h1 class="movie__name fw-300">Iron Man</h1>
+                            <span class="moive__year align-self-center">2017</span>
+                        </div>
+
+                        <div class="d-flex movie__rating my-1">
+                            <div class="d-flex">
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                            </div>
+                            <span class="align-self-center">4.7</span>
+                        </div>
+
+                        <p class="movie__description my-2">It is a long established fact that a reader will be
+                            distracted by
+                            the readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                            that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                            here, content here', making it look like readable English.
+                        </p>
+
+                        <div class="movie__cta my-4">
+                            <a href="show.html" class="btn btn-primary text-capitalize mr-0 mr-md-2">
+                                <span class="fas fa-play"></span> watch now</a>
+                            <a href="#" class="btn btn-outline-light text-capitalize">
+                                <span class="fas fa-heart"></span> add to favourite</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-10 mt-2 mx-auto col-md-4 col-lg-3 ml-md-auto mr-md-0  py-4">
+                        <img src="dist/images/iron man.jpg" class="img-fluid" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--       End Moive One-->
+
+        <!--        Moive Two-->
+        <div class="movie text-white d-flex justify-content-center align-items-center">
+            <div class="movie__bg"
+                 style="background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),
+                 url('dist/images/thor 1.jpg') center/cover no-repeat;"></div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6 py-4">
+                        <div class="d-flex justify-content-between">
+                            <h1 class="movie__name fw-300">Thor</h1>
+                            <span class="moive__year align-self-center">2014</span>
+                        </div>
+
+                        <div class="d-flex movie__rating my-1">
+                            <div class="d-flex">
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                            </div>
+                            <span class="align-self-center">4.5</span>
+                        </div>
+
+                        <p class="movie__description my-2">It is a long established fact that a reader will be
+                            distracted by
+                            the readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                            that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                            here, content here', making it look like readable English.
+                        </p>
+
+                        <div class="movie__cta my-4">
+                            <a href="login.html" class="btn btn-primary text-capitalize mr-0 mr-md-2">
+                                <span class="fas fa-play"></span> watch now</a>
+                            <a href="register.html" class="btn btn-outline-light text-capitalize">
+                                <span class="fas fa-heart"></span> add to favourite</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-10 mt-2 mx-auto col-md-4 col-lg-3 ml-md-auto mr-md-0  py-4">
+                        <img src="dist/images/thor%202.jpg" class="img-fluid" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--       End Moive Two-->
+
+        <!--        Moive Three-->
+        <div class="movie text-white d-flex justify-content-center align-items-center">
+            <div class="movie__bg"
+                 style="background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),
+                 url('dist/images/harry one.jpg') center/cover no-repeat;"></div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6 py-4">
+                        <div class="d-flex justify-content-between">
+                            <h1 class="movie__name fw-300">Harry Potter</h1>
+                            <span class="moive__year align-self-center">2009</span>
+                        </div>
+
+                        <div class="d-flex movie__rating my-1">
+                            <div class="d-flex">
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                            </div>
+                            <span class="align-self-center">4.8</span>
+                        </div>
+
+                        <p class="movie__description my-2">It is a long established fact that a reader will be
+                            distracted by
+                            the readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                            that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                            here, content here', making it look like readable English.
+                        </p>
+
+                        <div class="movie__cta my-4">
+                            <a href="login.html" class="btn btn-primary text-capitalize mr-0 mr-md-2">
+                                <span class="fas fa-play"></span> watch now</a>
+                            <a href="register.html" class="btn btn-outline-light text-capitalize">
+                                <span class="fas fa-heart"></span> add to favourite</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-10 mt-2 mx-auto col-md-4 col-lg-3 ml-md-auto mr-md-0  py-4">
+                        <img src="dist/images/harry%203.jpg" class="img-fluid" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!--       End Moive Three-->
+
+        <!--        Moive Four-->
+        <div class="movie text-white d-flex justify-content-center align-items-center">
+            <div class="movie__bg"
+                 style="background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),
+                 url('dist/images/spider 1.jpg') center/cover no-repeat;"></div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6 py-4">
+                        <div class="d-flex justify-content-between">
+                            <h1 class="movie__name fw-300">Spider Man</h1>
+                            <span class="moive__year align-self-center">2019</span>
+                        </div>
+
+                        <div class="d-flex movie__rating my-1">
+                            <div class="d-flex">
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                            </div>
+                            <span class="align-self-center">4.9</span>
+                        </div>
+
+                        <p class="movie__description my-2">It is a long established fact that a reader will be
+                            distracted by
+                            the readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                            that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                            here, content here', making it look like readable English.
+                        </p>
+
+                        <div class="movie__cta my-4">
+                            <a href="login.html" class="btn btn-primary text-capitalize mr-0 mr-md-2">
+                                <span class="fas fa-play"></span> watch now</a>
+                            <a href="register.html" class="btn btn-outline-light text-capitalize">
+                                <span class="fas fa-heart"></span> add to favourite</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-10 mt-2 mx-auto col-md-4 col-lg-3 ml-md-auto mr-md-0  py-4">
+                        <img src="dist/images/spider%202.jpg" class="img-fluid" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--       End Moive Four-->
+
+        <!--        Moive Five-->
+        <div class="movie text-white d-flex justify-content-center align-items-center">
+            <div class="movie__bg"
+                 style="background: linear-gradient(rgba(0,0,0, 0.5), rgba(0,0,0, 0.5)),
+                 url('dist/images/WallpaperDog-10782928.jpg') center/cover no-repeat;"></div>
+
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-6 py-4">
+                        <div class="d-flex justify-content-between">
+                            <h1 class="movie__name fw-300">Doctor Strange</h1>
+                            <span class="moive__year align-self-center">2016</span>
+                        </div>
+
+                        <div class="d-flex movie__rating my-1">
+                            <div class="d-flex">
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                                <span class="fas fa-star text-primary mr-1"></span>
+                            </div>
+                            <span class="align-self-center">4.5</span>
+                        </div>
+
+                        <p class="movie__description my-2">It is a long established fact that a reader will be
+                            distracted by
+                            the readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                            that it has a more-or-less normal distribution of letters, as opposed to using 'Content
+                            here, content here', making it look like readable English.
+                        </p>
+
+                        <div class="movie__cta my-4">
+                            <a href="login.html" class="btn btn-primary text-capitalize mr-0 mr-md-2">
+                                <span class="fas fa-play"></span> watch now</a>
+                            <a href="register.html" class="btn btn-outline-light text-capitalize">
+                                <span class="fas fa-heart"></span> add to favourite</a>
+                        </div>
+
+                    </div>
+
+                    <div class="col-10 mt-2 mx-auto col-md-4 col-lg-3 ml-md-auto mr-md-0  py-4">
+                        <img src="dist/images/doctor-strange-movie-poster-marvel-cinematic-universe-1038908.jpg"
+                             class="img-fluid" alt="">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!--       End Moive Five-->
+    </div>
+</section>
+<section class="listing py-2">
+    <div class="container">
+
+        <div class="row  my-4">
+            <div class="col-12 d-flex justify-content-between">
+                <h3 class="listing__title text-white fw-300">Most Views</h3>
+                <a href="" class="align-self-center text-capitalize text-primary">See All</a>
+            </div>
+        </div>
+        <div class=" movies owl-carousel owl-theme">
+            <!--            Movie one -->
+            <div class="  movie p-0">
+                <img src="dist/images/1917-poster-2.jpg" class="img-fluid" alt="">
+                <div class="movie__details text-white">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 movie__name">1917</p>
+                        <p class="mb-0 movie__year align-self-center my-2">2019</p>
+                    </div>
+                    <div class="d-flex movie__rating">
+                        <div class="mr-2">
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+                    <div class="movie__views">
+                        <p>Views: 300</p>
+                    </div>
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary text-capitalize flex-fill mr-2"><i
+                                class="fas fa-play"></i>
+                            watch
+                            now</a>
+                        <i class="far fa-heart fa-1x movie__fav-btn"></i>
+                    </div>
+                </div>
+            </div>
+            <!--           End  Movie one -->
+            <!--            Movie Two -->
+            <div class="  movie p-0">
+                <img src="dist/images/2EF9FAE7-B888-4DBA-868D-B4E289BAE769.jpeg" class="img-fluid" alt="">
+                <div class="movie__details text-white">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 movie__name">Black Window</p>
+                        <p class="mb-0 movie__year align-self-center my-2">2020</p>
+                    </div>
+                    <div class="d-flex movie__rating">
+                        <div class="mr-2">
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+                    <div class="movie__views">
+                        <p>Views: 300</p>
+                    </div>
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary text-capitalize flex-fill mr-2"><i
+                                class="fas fa-play"></i>
+                            watch
+                            now</a>
+                        <i class="far fa-heart fa-1x movie__fav-btn"></i>
+                    </div>
+                </div>
+            </div>
+            <!--           End  Movie Two -->
+            <!--            Movie Three -->
+            <div class="  movie p-0">
+                <img src="dist/images/thor-the-dark-world-movie-poster-marvel-cinematic-universe-1038895.jpg"
+                     class="img-fluid" alt="">
+                <div class="movie__details text-white">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 movie__name">Thor</p>
+                        <p class="mb-0 movie__year align-self-center my-2">2016</p>
+                    </div>
+                    <div class="d-flex movie__rating">
+                        <div class="mr-2">
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+                    <div class="movie__views">
+                        <p>Views: 300</p>
+                    </div>
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary text-capitalize flex-fill mr-2"><i
+                                class="fas fa-play"></i>
+                            watch
+                            now</a>
+                        <i class="far fa-heart fa-1x movie__fav-btn"></i>
+                    </div>
+                </div>
+            </div>
+            <!--           End  Movie Three -->
+            <!--            Movie Four -->
+            <div class="  movie p-0">
+                <img src="dist/images/Ava-poster-1.jpg" class="img-fluid" alt="">
+                <div class="movie__details text-white">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 movie__name">AVA</p>
+                        <p class="mb-0 movie__year align-self-center my-2">2020</p>
+                    </div>
+                    <div class="d-flex movie__rating">
+                        <div class="mr-2">
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+                    <div class="movie__views">
+                        <p>Views: 300</p>
+                    </div>
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary text-capitalize flex-fill mr-2"><i
+                                class="fas fa-play"></i>
+                            watch
+                            now</a>
+                        <i class="far fa-heart fa-1x movie__fav-btn"></i>
+                    </div>
+                </div>
+            </div>
+            <!--           End  Movie Four -->
+            <!--            Movie Five -->
+            <div class="  movie p-0">
+                <img src="dist/images/extraction_netflix_xlg.jpg" class="img-fluid" alt="">
+                <div class="movie__details text-white">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 movie__name">Extraction</p>
+                        <p class="mb-0 movie__year align-self-center my-2">2020</p>
+                    </div>
+                    <div class="d-flex movie__rating">
+                        <div class="mr-2">
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+                    <div class="movie__views">
+                        <p>Views: 300</p>
+                    </div>
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary text-capitalize flex-fill mr-2"><i
+                                class="fas fa-play"></i>
+                            watch
+                            now</a>
+                        <i class="far fa-heart fa-1x movie__fav-btn"></i>
+                    </div>
+                </div>
+            </div>
+            <!--           End  Movie Five -->
+            <!--            Movie Six -->
+            <div class="  movie p-0">
+                <img src="dist/images/avengers-2-movie-poster-marvel-cinematic-universe-1038898.jpg"
+                     class="img-fluid"
+                     alt="">
+                <div class="movie__details text-white">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 movie__name">Avengers</p>
+                        <p class="mb-0 movie__year align-self-center my-2">2018</p>
+                    </div>
+                    <div class="d-flex movie__rating">
+                        <div class="mr-2">
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+                    <div class="movie__views">
+                        <p>Views: 300</p>
+                    </div>
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary text-capitalize flex-fill mr-2"><i
+                                class="fas fa-play"></i>
+                            watch
+                            now</a>
+                        <i class="far fa-heart fa-1x movie__fav-btn"></i>
+                    </div>
+                </div>
+            </div>
+            <!--           End  Movie Six -->
+            <!--            Movie Seven -->
+            <div class="  movie p-0">
+                <img src="dist/images/ScoobyPoster.jpg" class="img-fluid" alt="">
+                <div class="movie__details text-white">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 movie__name">Scooby</p>
+                        <p class="mb-0 movie__year align-self-center my-2">2018</p>
+                    </div>
+                    <div class="d-flex movie__rating">
+                        <div class="mr-2">
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+                    <div class="movie__views">
+                        <p>Views: 300</p>
+                    </div>
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary text-capitalize flex-fill mr-2"><i
+                                class="fas fa-play"></i>
+                            watch
+                            now</a>
+                        <i class="far fa-heart fa-1x movie__fav-btn"></i>
+                    </div>
+                </div>
+            </div>
+            <!--           End  Movie Seven -->
+            <!--            Movie Eight -->
+            <div class="  movie p-0">
+                <img src="dist/images/sonic-poster5.jpg" class="img-fluid" alt="">
+                <div class="movie__details text-white">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 movie__name">Sonic</p>
+                        <p class="mb-0 movie__year align-self-center my-2">2020</p>
+                    </div>
+                    <div class="d-flex movie__rating">
+                        <div class="mr-2">
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+                    <div class="movie__views">
+                        <p>Views: 300</p>
+                    </div>
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary text-capitalize flex-fill mr-2"><i
+                                class="fas fa-play"></i>
+                            watch
+                            now</a>
+                        <i class="far fa-heart fa-1x movie__fav-btn"></i>
+                    </div>
+                </div>
+            </div>
+            <!--           End  Movie Eight -->
+        </div>
+    </div>
+</section>
+<section class="listing py-2">
+    <div class="container">
+
+        <div class="row my-4">
+            <div class="col-12 d-flex justify-content-between">
+                <h3 class="listing__title text-white fw-300">Coming Soon</h3>
+                <a href="" class="align-self-center text-capitalize text-primary">See All</a>
+            </div>
+        </div>
+        <div class=" movies owl-carousel owl-theme">
+            <!--            Movie one -->
+            <div class="  movie p-0">
+                <img src="dist/images/bloodshot-poster.jpg" class="img-fluid" alt="">
+                <div class="movie__details text-white">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 movie__name">Blood Shot</p>
+                        <p class="mb-0 movie__year align-self-center my-2">2020</p>
+                    </div>
+                    <div class="d-flex movie__rating">
+                        <div class="mr-2">
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+                    <div class="movie__views">
+                        <p>Views: 300</p>
+                    </div>
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>
+                            watch
+                            now</a>
+                        <i class="far fa-heart fa-1x movie__fav-btn"></i>
+                    </div>
+                </div>
+            </div>
+            <!--           End  Movie one -->
+            <!--            Movie Two -->
+            <div class="  movie p-0">
+                <img src="dist/images/grethanposter.jpg" class="img-fluid" alt="">
+                <div class="movie__details text-white">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 movie__name">Gretel & Hansel</p>
+                        <p class="mb-0 movie__year align-self-center my-2">2020</p>
+                    </div>
+                    <div class="d-flex movie__rating">
+                        <div class="mr-2">
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+                    <div class="movie__views">
+                        <p>Views: 300</p>
+                    </div>
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>
+                            watch
+                            now</a>
+                        <i class="far fa-heart fa-1x movie__fav-btn"></i>
+                    </div>
+                </div>
+            </div>
+            <!--           End  Movie Two -->
+            <!--            Movie Three -->
+            <div class="  movie p-0">
+                <img src="dist/images/7315989.jpg"
+                     class="img-fluid" alt="">
+                <div class="movie__details text-white">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 movie__name">Captain America</p>
+                        <p class="mb-0 movie__year align-self-center my-2">2020</p>
+                    </div>
+                    <div class="d-flex movie__rating">
+                        <div class="mr-2">
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+                    <div class="movie__views">
+                        <p>Views: 300</p>
+                    </div>
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>
+                            watch
+                            now</a>
+                        <i class="far fa-heart fa-1x movie__fav-btn"></i>
+                    </div>
+                </div>
+            </div>
+            <!--           End  Movie Three -->
+            <!--            Movie Four -->
+            <div class="  movie p-0">
+                <img src="dist/images/7315993.jpg" class="img-fluid" alt="">
+                <div class="movie__details text-white">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 movie__name">Ant-Man</p>
+                        <p class="mb-0 movie__year align-self-center my-2">2020</p>
+                    </div>
+                    <div class="d-flex movie__rating">
+                        <div class="mr-2">
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+                    <div class="movie__views">
+                        <p>Views: 300</p>
+                    </div>
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>
+                            watch
+                            now</a>
+                        <i class="far fa-heart fa-1x movie__fav-btn"></i>
+                    </div>
+                </div>
+            </div>
+            <!--           End  Movie Four -->
+            <!--            Movie Four -->
+            <div class="  movie p-0">
+                <img src="dist/images/the-incredible-hulk-movie-poster-marvel-cinematic-universe-1038886.jpg"
+                     class="img-fluid" alt="">
+                <div class="movie__details text-white">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0 movie__name">Hulk</p>
+                        <p class="mb-0 movie__year align-self-center my-2">2020</p>
+                    </div>
+                    <div class="d-flex movie__rating">
+                        <div class="mr-2">
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                            <i class="fas fa-star text-primary mr-1"></i>
+                        </div>
+                        <span>4.7</span>
+                    </div>
+                    <div class="movie__views">
+                        <p>Views: 300</p>
+                    </div>
+                    <div class="d-flex movie__cta">
+                        <a href="" class="btn btn-primary text-capitalize flex-fill mr-2"><i class="fas fa-play"></i>
+                            watch
+                            now</a>
+                        <i class="far fa-heart fa-1x movie__fav-btn"></i>
+                    </div>
+                </div>
+            </div>
+            <!--           End  Movie Four -->
+        </div>
+    </div>
+</section>
+<footer id="footer" class="py-3 bg-primary text-center text-white">
+    <p class="mb-0 text-capitalize">&copy; all copy rigth reserved for Netflixify 2020</p>
+    <div class="social__icons text-white">
+        <a href="" class="text-white mr-2"><i class="fab fa-facebook fa-1x"></i></a>
+        <a href="" class="text-white mr-2"><i class="fab fa-youtube"></i></a>
+        <a href="" class="text-white mr-2"><i class="fab fa-twitter"></i></a>
+        <a href="" class="text-white mr-2"><i class="fab fa-google"></i></a>
+    </div>
+</footer>
+
+<!--    Bootstrap scripts-->
+<script src="dist/js/jquery-3.5.1.min.js"></script>
+<script src="dist/js/bootstrap.bundle.min.js"></script>
+<!--    Plugins scripts-->
+
+<script src="dist/js/vendor.min.js"></script>
+<!--    Main scripts-->
+<script src="dist/js/main.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#banner .movies").owlCarousel({
+            loop: true,
+            nav: false,
+            items: 1,
+            dots: false
+
+        });
+        $(".listing .movies").owlCarousel({
+            loop: true,
+            nav: false,
+            stagePadding: 50,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 3
+                },
+                900: {
+                    items: 3
+                },
+                1000: {
+                    items: 5
+                },
+            },
+            margin: 15,
+            dots: false
+
+        });
+    });
+</script>
+</body>
+</html>

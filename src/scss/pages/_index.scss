@@ -1,0 +1,94 @@
+#banner {
+
+  .form-control[type="search"]::placeholder {
+    color: #fff;
+  }
+
+  .movie {
+    min-height: 100vh;
+    position: relative;
+    background-color: black;
+
+    .movie__bg {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      filter: blur(3px);
+    }
+
+    .movie__name {
+      font-size: 4rem;
+    }
+
+    .movie__rating .fas {
+      font-size: 1rem;
+    }
+
+    .movie__description {
+      font-size: 1.2rem;
+      font-weight: 300;
+      line-height: 2rem;
+
+    }
+
+  }
+
+}
+
+.listing {
+  .movie {
+    background: $black;
+    position: relative;
+    transition: all 0.2s ease-in;
+
+    img {
+      transition: all 0.2s ease-in;
+    }
+
+    &:hover img {
+      opacity: 0.6;
+    }
+
+    &:hover .movie__details {
+      opacity: 1;
+    }
+
+    .movie__details {
+      position: absolute;
+      bottom: 1rem;
+      left: 10px;
+      right: 10px;
+      opacity: 0;
+      transition: all 0.2s ease-in;
+
+    }
+
+    .movie__name {
+      font-size: 1.5rem;
+    }
+
+    .movie__rating {
+      .fa-star {
+        font-size: 0.9rem;
+      }
+    }
+
+    .movie__fav-btn {
+      font-size: 1.5rem;
+
+      &:hover {
+        font-weight: 900;
+        transition: all 0.2s ease-in;
+
+      }
+    }
+  }
+}
+
+#footer {
+  .social__icons {
+    font-size: 1.2rem;
+  }
+}
